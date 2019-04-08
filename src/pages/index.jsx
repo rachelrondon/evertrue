@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from './navigation';
+import SubItem from './SubItem';
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -10,7 +11,9 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div>
-        <Navigation /> 
+        <h1>General Info</h1>
+        <Navigation />
+        <SubItem />
       </div>
     )
   }
